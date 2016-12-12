@@ -7,76 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		70445387CCF26C39C27738C3 /* libPods-JSUIKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 62ED8D527E3FD744BC425ACF /* libPods-JSUIKitDemo.a */; };
-		FD0C86641DF95FAF00D52A5E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0C86631DF95FAF00D52A5E /* main.m */; };
-		FD0C86671DF95FAF00D52A5E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0C86661DF95FAF00D52A5E /* AppDelegate.m */; };
-		FD0C866A1DF95FAF00D52A5E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0C86691DF95FAF00D52A5E /* ViewController.m */; };
-		FD0C866D1DF95FAF00D52A5E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0C866B1DF95FAF00D52A5E /* Main.storyboard */; };
-		FD0C866F1DF95FAF00D52A5E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD0C866E1DF95FAF00D52A5E /* Assets.xcassets */; };
-		FD0C86721DF95FAF00D52A5E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD0C86701DF95FAF00D52A5E /* LaunchScreen.storyboard */; };
-		FD0C867D1DF95FAF00D52A5E /* JSUIKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0C867C1DF95FAF00D52A5E /* JSUIKitDemoTests.m */; };
-		FD0C86881DF95FAF00D52A5E /* JSUIKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0C86871DF95FAF00D52A5E /* JSUIKitDemoUITests.m */; };
-		FD0C86981DF9600100D52A5E /* JSUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FD0C86971DF9600100D52A5E /* JSUIKit.m */; };
+		FDEE65C51DFE28CF0078EE14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEE65C41DFE28CF0078EE14 /* main.m */; };
+		FDEE65C81DFE28CF0078EE14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEE65C71DFE28CF0078EE14 /* AppDelegate.m */; };
+		FDEE65CB1DFE28CF0078EE14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEE65CA1DFE28CF0078EE14 /* ViewController.m */; };
+		FDEE65CE1DFE28CF0078EE14 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEE65CC1DFE28CF0078EE14 /* Main.storyboard */; };
+		FDEE65D01DFE28CF0078EE14 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FDEE65CF1DFE28CF0078EE14 /* Assets.xcassets */; };
+		FDEE65D31DFE28CF0078EE14 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FDEE65D11DFE28CF0078EE14 /* LaunchScreen.storyboard */; };
+		FDEE65DE1DFE28CF0078EE14 /* JSUIKitDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEE65DD1DFE28CF0078EE14 /* JSUIKitDemoTests.m */; };
+		FDEE65E91DFE28CF0078EE14 /* JSUIKitDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEE65E81DFE28CF0078EE14 /* JSUIKitDemoUITests.m */; };
+		FDEE65F91DFE29040078EE14 /* JSUIKit.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEE65F81DFE29040078EE14 /* JSUIKit.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		FD0C86791DF95FAF00D52A5E /* PBXContainerItemProxy */ = {
+		FDEE65DA1DFE28CF0078EE14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FD0C86571DF95FAF00D52A5E /* Project object */;
+			containerPortal = FDEE65B81DFE28CF0078EE14 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD0C865E1DF95FAF00D52A5E;
+			remoteGlobalIDString = FDEE65BF1DFE28CF0078EE14;
 			remoteInfo = JSUIKitDemo;
 		};
-		FD0C86841DF95FAF00D52A5E /* PBXContainerItemProxy */ = {
+		FDEE65E51DFE28CF0078EE14 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = FD0C86571DF95FAF00D52A5E /* Project object */;
+			containerPortal = FDEE65B81DFE28CF0078EE14 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = FD0C865E1DF95FAF00D52A5E;
+			remoteGlobalIDString = FDEE65BF1DFE28CF0078EE14;
 			remoteInfo = JSUIKitDemo;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1C4938340FEB503580ABF45C /* Pods-JSUIKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSUIKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSUIKitDemo/Pods-JSUIKitDemo.release.xcconfig"; sourceTree = "<group>"; };
-		62ED8D527E3FD744BC425ACF /* libPods-JSUIKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSUIKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		9E6570C51781247D367F60DF /* Pods-JSUIKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSUIKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSUIKitDemo/Pods-JSUIKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		FD0C865F1DF95FAF00D52A5E /* JSUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD0C86631DF95FAF00D52A5E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		FD0C86651DF95FAF00D52A5E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		FD0C86661DF95FAF00D52A5E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		FD0C86681DF95FAF00D52A5E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		FD0C86691DF95FAF00D52A5E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		FD0C866C1DF95FAF00D52A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		FD0C866E1DF95FAF00D52A5E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		FD0C86711DF95FAF00D52A5E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		FD0C86731DF95FAF00D52A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD0C86781DF95FAF00D52A5E /* JSUIKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSUIKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD0C867C1DF95FAF00D52A5E /* JSUIKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSUIKitDemoTests.m; sourceTree = "<group>"; };
-		FD0C867E1DF95FAF00D52A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD0C86831DF95FAF00D52A5E /* JSUIKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSUIKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		FD0C86871DF95FAF00D52A5E /* JSUIKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSUIKitDemoUITests.m; sourceTree = "<group>"; };
-		FD0C86891DF95FAF00D52A5E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD0C86961DF9600100D52A5E /* JSUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSUIKit.h; sourceTree = "<group>"; };
-		FD0C86971DF9600100D52A5E /* JSUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSUIKit.m; sourceTree = "<group>"; };
+		FDEE65C01DFE28CF0078EE14 /* JSUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEE65C41DFE28CF0078EE14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		FDEE65C61DFE28CF0078EE14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		FDEE65C71DFE28CF0078EE14 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		FDEE65C91DFE28CF0078EE14 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		FDEE65CA1DFE28CF0078EE14 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		FDEE65CD1DFE28CF0078EE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FDEE65CF1DFE28CF0078EE14 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FDEE65D21DFE28CF0078EE14 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FDEE65D41DFE28CF0078EE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEE65D91DFE28CF0078EE14 /* JSUIKitDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSUIKitDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEE65DD1DFE28CF0078EE14 /* JSUIKitDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSUIKitDemoTests.m; sourceTree = "<group>"; };
+		FDEE65DF1DFE28CF0078EE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEE65E41DFE28CF0078EE14 /* JSUIKitDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JSUIKitDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDEE65E81DFE28CF0078EE14 /* JSUIKitDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JSUIKitDemoUITests.m; sourceTree = "<group>"; };
+		FDEE65EA1DFE28CF0078EE14 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FDEE65F71DFE29040078EE14 /* JSUIKit.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JSUIKit.h; sourceTree = "<group>"; };
+		FDEE65F81DFE29040078EE14 /* JSUIKit.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JSUIKit.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		FD0C865C1DF95FAF00D52A5E /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				70445387CCF26C39C27738C3 /* libPods-JSUIKitDemo.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FD0C86751DF95FAF00D52A5E /* Frameworks */ = {
+		FDEE65BD1DFE28CF0078EE14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD0C86801DF95FAF00D52A5E /* Frameworks */ = {
+		FDEE65D61DFE28CF0078EE14 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDEE65E11DFE28CF0078EE14 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -86,93 +81,74 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		B0489ED4167ACC74E9B83329 /* Frameworks */ = {
+		FDEE65B71DFE28CF0078EE14 = {
 			isa = PBXGroup;
 			children = (
-				62ED8D527E3FD744BC425ACF /* libPods-JSUIKitDemo.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		BDD8E8897D87D1C65DB5AF9C /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				9E6570C51781247D367F60DF /* Pods-JSUIKitDemo.debug.xcconfig */,
-				1C4938340FEB503580ABF45C /* Pods-JSUIKitDemo.release.xcconfig */,
-			);
-			name = Pods;
-			sourceTree = "<group>";
-		};
-		FD0C86561DF95FAF00D52A5E = {
-			isa = PBXGroup;
-			children = (
-				FD0C86951DF95FEA00D52A5E /* JSUIKit */,
-				FD0C86611DF95FAF00D52A5E /* JSUIKitDemo */,
-				FD0C867B1DF95FAF00D52A5E /* JSUIKitDemoTests */,
-				FD0C86861DF95FAF00D52A5E /* JSUIKitDemoUITests */,
-				FD0C86601DF95FAF00D52A5E /* Products */,
-				BDD8E8897D87D1C65DB5AF9C /* Pods */,
-				B0489ED4167ACC74E9B83329 /* Frameworks */,
+				FDEE65F61DFE29040078EE14 /* JSUIKit */,
+				FDEE65C21DFE28CF0078EE14 /* JSUIKitDemo */,
+				FDEE65DC1DFE28CF0078EE14 /* JSUIKitDemoTests */,
+				FDEE65E71DFE28CF0078EE14 /* JSUIKitDemoUITests */,
+				FDEE65C11DFE28CF0078EE14 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		FD0C86601DF95FAF00D52A5E /* Products */ = {
+		FDEE65C11DFE28CF0078EE14 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				FD0C865F1DF95FAF00D52A5E /* JSUIKitDemo.app */,
-				FD0C86781DF95FAF00D52A5E /* JSUIKitDemoTests.xctest */,
-				FD0C86831DF95FAF00D52A5E /* JSUIKitDemoUITests.xctest */,
+				FDEE65C01DFE28CF0078EE14 /* JSUIKitDemo.app */,
+				FDEE65D91DFE28CF0078EE14 /* JSUIKitDemoTests.xctest */,
+				FDEE65E41DFE28CF0078EE14 /* JSUIKitDemoUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		FD0C86611DF95FAF00D52A5E /* JSUIKitDemo */ = {
+		FDEE65C21DFE28CF0078EE14 /* JSUIKitDemo */ = {
 			isa = PBXGroup;
 			children = (
-				FD0C86651DF95FAF00D52A5E /* AppDelegate.h */,
-				FD0C86661DF95FAF00D52A5E /* AppDelegate.m */,
-				FD0C86681DF95FAF00D52A5E /* ViewController.h */,
-				FD0C86691DF95FAF00D52A5E /* ViewController.m */,
-				FD0C866B1DF95FAF00D52A5E /* Main.storyboard */,
-				FD0C866E1DF95FAF00D52A5E /* Assets.xcassets */,
-				FD0C86701DF95FAF00D52A5E /* LaunchScreen.storyboard */,
-				FD0C86731DF95FAF00D52A5E /* Info.plist */,
-				FD0C86621DF95FAF00D52A5E /* Supporting Files */,
+				FDEE65C61DFE28CF0078EE14 /* AppDelegate.h */,
+				FDEE65C71DFE28CF0078EE14 /* AppDelegate.m */,
+				FDEE65C91DFE28CF0078EE14 /* ViewController.h */,
+				FDEE65CA1DFE28CF0078EE14 /* ViewController.m */,
+				FDEE65CC1DFE28CF0078EE14 /* Main.storyboard */,
+				FDEE65CF1DFE28CF0078EE14 /* Assets.xcassets */,
+				FDEE65D11DFE28CF0078EE14 /* LaunchScreen.storyboard */,
+				FDEE65D41DFE28CF0078EE14 /* Info.plist */,
+				FDEE65C31DFE28CF0078EE14 /* Supporting Files */,
 			);
 			path = JSUIKitDemo;
 			sourceTree = "<group>";
 		};
-		FD0C86621DF95FAF00D52A5E /* Supporting Files */ = {
+		FDEE65C31DFE28CF0078EE14 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
-				FD0C86631DF95FAF00D52A5E /* main.m */,
+				FDEE65C41DFE28CF0078EE14 /* main.m */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		FD0C867B1DF95FAF00D52A5E /* JSUIKitDemoTests */ = {
+		FDEE65DC1DFE28CF0078EE14 /* JSUIKitDemoTests */ = {
 			isa = PBXGroup;
 			children = (
-				FD0C867C1DF95FAF00D52A5E /* JSUIKitDemoTests.m */,
-				FD0C867E1DF95FAF00D52A5E /* Info.plist */,
+				FDEE65DD1DFE28CF0078EE14 /* JSUIKitDemoTests.m */,
+				FDEE65DF1DFE28CF0078EE14 /* Info.plist */,
 			);
 			path = JSUIKitDemoTests;
 			sourceTree = "<group>";
 		};
-		FD0C86861DF95FAF00D52A5E /* JSUIKitDemoUITests */ = {
+		FDEE65E71DFE28CF0078EE14 /* JSUIKitDemoUITests */ = {
 			isa = PBXGroup;
 			children = (
-				FD0C86871DF95FAF00D52A5E /* JSUIKitDemoUITests.m */,
-				FD0C86891DF95FAF00D52A5E /* Info.plist */,
+				FDEE65E81DFE28CF0078EE14 /* JSUIKitDemoUITests.m */,
+				FDEE65EA1DFE28CF0078EE14 /* Info.plist */,
 			);
 			path = JSUIKitDemoUITests;
 			sourceTree = "<group>";
 		};
-		FD0C86951DF95FEA00D52A5E /* JSUIKit */ = {
+		FDEE65F61DFE29040078EE14 /* JSUIKit */ = {
 			isa = PBXGroup;
 			children = (
-				FD0C86961DF9600100D52A5E /* JSUIKit.h */,
-				FD0C86971DF9600100D52A5E /* JSUIKit.m */,
+				FDEE65F71DFE29040078EE14 /* JSUIKit.h */,
+				FDEE65F81DFE29040078EE14 /* JSUIKit.m */,
 			);
 			path = JSUIKit;
 			sourceTree = "<group>";
@@ -180,16 +156,13 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		FD0C865E1DF95FAF00D52A5E /* JSUIKitDemo */ = {
+		FDEE65BF1DFE28CF0078EE14 /* JSUIKitDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD0C868C1DF95FAF00D52A5E /* Build configuration list for PBXNativeTarget "JSUIKitDemo" */;
+			buildConfigurationList = FDEE65ED1DFE28CF0078EE14 /* Build configuration list for PBXNativeTarget "JSUIKitDemo" */;
 			buildPhases = (
-				1023E8A5B2AADE8D6F2FC6CD /* [CP] Check Pods Manifest.lock */,
-				FD0C865B1DF95FAF00D52A5E /* Sources */,
-				FD0C865C1DF95FAF00D52A5E /* Frameworks */,
-				FD0C865D1DF95FAF00D52A5E /* Resources */,
-				EB3BCD2964F7267360BA11AF /* [CP] Embed Pods Frameworks */,
-				75F9CBFBFC9C7B00B35060FC /* [CP] Copy Pods Resources */,
+				FDEE65BC1DFE28CF0078EE14 /* Sources */,
+				FDEE65BD1DFE28CF0078EE14 /* Frameworks */,
+				FDEE65BE1DFE28CF0078EE14 /* Resources */,
 			);
 			buildRules = (
 			);
@@ -197,71 +170,71 @@
 			);
 			name = JSUIKitDemo;
 			productName = JSUIKitDemo;
-			productReference = FD0C865F1DF95FAF00D52A5E /* JSUIKitDemo.app */;
+			productReference = FDEE65C01DFE28CF0078EE14 /* JSUIKitDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		FD0C86771DF95FAF00D52A5E /* JSUIKitDemoTests */ = {
+		FDEE65D81DFE28CF0078EE14 /* JSUIKitDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD0C868F1DF95FAF00D52A5E /* Build configuration list for PBXNativeTarget "JSUIKitDemoTests" */;
+			buildConfigurationList = FDEE65F01DFE28CF0078EE14 /* Build configuration list for PBXNativeTarget "JSUIKitDemoTests" */;
 			buildPhases = (
-				FD0C86741DF95FAF00D52A5E /* Sources */,
-				FD0C86751DF95FAF00D52A5E /* Frameworks */,
-				FD0C86761DF95FAF00D52A5E /* Resources */,
+				FDEE65D51DFE28CF0078EE14 /* Sources */,
+				FDEE65D61DFE28CF0078EE14 /* Frameworks */,
+				FDEE65D71DFE28CF0078EE14 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FD0C867A1DF95FAF00D52A5E /* PBXTargetDependency */,
+				FDEE65DB1DFE28CF0078EE14 /* PBXTargetDependency */,
 			);
 			name = JSUIKitDemoTests;
 			productName = JSUIKitDemoTests;
-			productReference = FD0C86781DF95FAF00D52A5E /* JSUIKitDemoTests.xctest */;
+			productReference = FDEE65D91DFE28CF0078EE14 /* JSUIKitDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		FD0C86821DF95FAF00D52A5E /* JSUIKitDemoUITests */ = {
+		FDEE65E31DFE28CF0078EE14 /* JSUIKitDemoUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = FD0C86921DF95FAF00D52A5E /* Build configuration list for PBXNativeTarget "JSUIKitDemoUITests" */;
+			buildConfigurationList = FDEE65F31DFE28CF0078EE14 /* Build configuration list for PBXNativeTarget "JSUIKitDemoUITests" */;
 			buildPhases = (
-				FD0C867F1DF95FAF00D52A5E /* Sources */,
-				FD0C86801DF95FAF00D52A5E /* Frameworks */,
-				FD0C86811DF95FAF00D52A5E /* Resources */,
+				FDEE65E01DFE28CF0078EE14 /* Sources */,
+				FDEE65E11DFE28CF0078EE14 /* Frameworks */,
+				FDEE65E21DFE28CF0078EE14 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				FD0C86851DF95FAF00D52A5E /* PBXTargetDependency */,
+				FDEE65E61DFE28CF0078EE14 /* PBXTargetDependency */,
 			);
 			name = JSUIKitDemoUITests;
 			productName = JSUIKitDemoUITests;
-			productReference = FD0C86831DF95FAF00D52A5E /* JSUIKitDemoUITests.xctest */;
+			productReference = FDEE65E41DFE28CF0078EE14 /* JSUIKitDemoUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		FD0C86571DF95FAF00D52A5E /* Project object */ = {
+		FDEE65B81DFE28CF0078EE14 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				LastUpgradeCheck = 0810;
 				ORGANIZATIONNAME = "菅思博";
 				TargetAttributes = {
-					FD0C865E1DF95FAF00D52A5E = {
-						CreatedOnToolsVersion = 8.0;
+					FDEE65BF1DFE28CF0078EE14 = {
+						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
 					};
-					FD0C86771DF95FAF00D52A5E = {
-						CreatedOnToolsVersion = 8.0;
+					FDEE65D81DFE28CF0078EE14 = {
+						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = FD0C865E1DF95FAF00D52A5E;
+						TestTargetID = FDEE65BF1DFE28CF0078EE14;
 					};
-					FD0C86821DF95FAF00D52A5E = {
-						CreatedOnToolsVersion = 8.0;
+					FDEE65E31DFE28CF0078EE14 = {
+						CreatedOnToolsVersion = 8.1;
 						ProvisioningStyle = Automatic;
-						TestTargetID = FD0C865E1DF95FAF00D52A5E;
+						TestTargetID = FDEE65BF1DFE28CF0078EE14;
 					};
 				};
 			};
-			buildConfigurationList = FD0C865A1DF95FAF00D52A5E /* Build configuration list for PBXProject "JSUIKitDemo" */;
+			buildConfigurationList = FDEE65BB1DFE28CF0078EE14 /* Build configuration list for PBXProject "JSUIKitDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -269,37 +242,37 @@
 				en,
 				Base,
 			);
-			mainGroup = FD0C86561DF95FAF00D52A5E;
-			productRefGroup = FD0C86601DF95FAF00D52A5E /* Products */;
+			mainGroup = FDEE65B71DFE28CF0078EE14;
+			productRefGroup = FDEE65C11DFE28CF0078EE14 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				FD0C865E1DF95FAF00D52A5E /* JSUIKitDemo */,
-				FD0C86771DF95FAF00D52A5E /* JSUIKitDemoTests */,
-				FD0C86821DF95FAF00D52A5E /* JSUIKitDemoUITests */,
+				FDEE65BF1DFE28CF0078EE14 /* JSUIKitDemo */,
+				FDEE65D81DFE28CF0078EE14 /* JSUIKitDemoTests */,
+				FDEE65E31DFE28CF0078EE14 /* JSUIKitDemoUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		FD0C865D1DF95FAF00D52A5E /* Resources */ = {
+		FDEE65BE1DFE28CF0078EE14 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD0C86721DF95FAF00D52A5E /* LaunchScreen.storyboard in Resources */,
-				FD0C866F1DF95FAF00D52A5E /* Assets.xcassets in Resources */,
-				FD0C866D1DF95FAF00D52A5E /* Main.storyboard in Resources */,
+				FDEE65D31DFE28CF0078EE14 /* LaunchScreen.storyboard in Resources */,
+				FDEE65D01DFE28CF0078EE14 /* Assets.xcassets in Resources */,
+				FDEE65CE1DFE28CF0078EE14 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD0C86761DF95FAF00D52A5E /* Resources */ = {
+		FDEE65D71DFE28CF0078EE14 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD0C86811DF95FAF00D52A5E /* Resources */ = {
+		FDEE65E21DFE28CF0078EE14 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -308,110 +281,62 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
-/* Begin PBXShellScriptBuildPhase section */
-		1023E8A5B2AADE8D6F2FC6CD /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
-			showEnvVarsInLog = 0;
-		};
-		75F9CBFBFC9C7B00B35060FC /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSUIKitDemo/Pods-JSUIKitDemo-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		EB3BCD2964F7267360BA11AF /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSUIKitDemo/Pods-JSUIKitDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-/* End PBXShellScriptBuildPhase section */
-
 /* Begin PBXSourcesBuildPhase section */
-		FD0C865B1DF95FAF00D52A5E /* Sources */ = {
+		FDEE65BC1DFE28CF0078EE14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD0C866A1DF95FAF00D52A5E /* ViewController.m in Sources */,
-				FD0C86671DF95FAF00D52A5E /* AppDelegate.m in Sources */,
-				FD0C86641DF95FAF00D52A5E /* main.m in Sources */,
-				FD0C86981DF9600100D52A5E /* JSUIKit.m in Sources */,
+				FDEE65CB1DFE28CF0078EE14 /* ViewController.m in Sources */,
+				FDEE65C81DFE28CF0078EE14 /* AppDelegate.m in Sources */,
+				FDEE65C51DFE28CF0078EE14 /* main.m in Sources */,
+				FDEE65F91DFE29040078EE14 /* JSUIKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD0C86741DF95FAF00D52A5E /* Sources */ = {
+		FDEE65D51DFE28CF0078EE14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD0C867D1DF95FAF00D52A5E /* JSUIKitDemoTests.m in Sources */,
+				FDEE65DE1DFE28CF0078EE14 /* JSUIKitDemoTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		FD0C867F1DF95FAF00D52A5E /* Sources */ = {
+		FDEE65E01DFE28CF0078EE14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD0C86881DF95FAF00D52A5E /* JSUIKitDemoUITests.m in Sources */,
+				FDEE65E91DFE28CF0078EE14 /* JSUIKitDemoUITests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		FD0C867A1DF95FAF00D52A5E /* PBXTargetDependency */ = {
+		FDEE65DB1DFE28CF0078EE14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD0C865E1DF95FAF00D52A5E /* JSUIKitDemo */;
-			targetProxy = FD0C86791DF95FAF00D52A5E /* PBXContainerItemProxy */;
+			target = FDEE65BF1DFE28CF0078EE14 /* JSUIKitDemo */;
+			targetProxy = FDEE65DA1DFE28CF0078EE14 /* PBXContainerItemProxy */;
 		};
-		FD0C86851DF95FAF00D52A5E /* PBXTargetDependency */ = {
+		FDEE65E61DFE28CF0078EE14 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = FD0C865E1DF95FAF00D52A5E /* JSUIKitDemo */;
-			targetProxy = FD0C86841DF95FAF00D52A5E /* PBXContainerItemProxy */;
+			target = FDEE65BF1DFE28CF0078EE14 /* JSUIKitDemo */;
+			targetProxy = FDEE65E51DFE28CF0078EE14 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		FD0C866B1DF95FAF00D52A5E /* Main.storyboard */ = {
+		FDEE65CC1DFE28CF0078EE14 /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FD0C866C1DF95FAF00D52A5E /* Base */,
+				FDEE65CD1DFE28CF0078EE14 /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		FD0C86701DF95FAF00D52A5E /* LaunchScreen.storyboard */ = {
+		FDEE65D11DFE28CF0078EE14 /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				FD0C86711DF95FAF00D52A5E /* Base */,
+				FDEE65D21DFE28CF0078EE14 /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -419,7 +344,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		FD0C868A1DF95FAF00D52A5E /* Debug */ = {
+		FDEE65EB1DFE28CF0078EE14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -437,7 +362,6 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -460,7 +384,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -468,7 +392,7 @@
 			};
 			name = Debug;
 		};
-		FD0C868B1DF95FAF00D52A5E /* Release */ = {
+		FDEE65EC1DFE28CF0078EE14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -486,7 +410,6 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
-				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -503,7 +426,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -511,35 +434,29 @@
 			};
 			name = Release;
 		};
-		FD0C868D1DF95FAF00D52A5E /* Debug */ = {
+		FDEE65EE1DFE28CF0078EE14 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 9E6570C51781247D367F60DF /* Pods-JSUIKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSUIKitDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Spirit.JSUIKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		FD0C868E1DF95FAF00D52A5E /* Release */ = {
+		FDEE65EF1DFE28CF0078EE14 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 1C4938340FEB503580ABF45C /* Pods-JSUIKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = JSUIKitDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Spirit.JSUIKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
-		FD0C86901DF95FAF00D52A5E /* Debug */ = {
+		FDEE65F11DFE28CF0078EE14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -551,7 +468,7 @@
 			};
 			name = Debug;
 		};
-		FD0C86911DF95FAF00D52A5E /* Release */ = {
+		FDEE65F21DFE28CF0078EE14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -563,7 +480,7 @@
 			};
 			name = Release;
 		};
-		FD0C86931DF95FAF00D52A5E /* Debug */ = {
+		FDEE65F41DFE28CF0078EE14 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = JSUIKitDemoUITests/Info.plist;
@@ -574,7 +491,7 @@
 			};
 			name = Debug;
 		};
-		FD0C86941DF95FAF00D52A5E /* Release */ = {
+		FDEE65F51DFE28CF0078EE14 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				INFOPLIST_FILE = JSUIKitDemoUITests/Info.plist;
@@ -588,43 +505,43 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		FD0C865A1DF95FAF00D52A5E /* Build configuration list for PBXProject "JSUIKitDemo" */ = {
+		FDEE65BB1DFE28CF0078EE14 /* Build configuration list for PBXProject "JSUIKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD0C868A1DF95FAF00D52A5E /* Debug */,
-				FD0C868B1DF95FAF00D52A5E /* Release */,
+				FDEE65EB1DFE28CF0078EE14 /* Debug */,
+				FDEE65EC1DFE28CF0078EE14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD0C868C1DF95FAF00D52A5E /* Build configuration list for PBXNativeTarget "JSUIKitDemo" */ = {
+		FDEE65ED1DFE28CF0078EE14 /* Build configuration list for PBXNativeTarget "JSUIKitDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD0C868D1DF95FAF00D52A5E /* Debug */,
-				FD0C868E1DF95FAF00D52A5E /* Release */,
+				FDEE65EE1DFE28CF0078EE14 /* Debug */,
+				FDEE65EF1DFE28CF0078EE14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD0C868F1DF95FAF00D52A5E /* Build configuration list for PBXNativeTarget "JSUIKitDemoTests" */ = {
+		FDEE65F01DFE28CF0078EE14 /* Build configuration list for PBXNativeTarget "JSUIKitDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD0C86901DF95FAF00D52A5E /* Debug */,
-				FD0C86911DF95FAF00D52A5E /* Release */,
+				FDEE65F11DFE28CF0078EE14 /* Debug */,
+				FDEE65F21DFE28CF0078EE14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		FD0C86921DF95FAF00D52A5E /* Build configuration list for PBXNativeTarget "JSUIKitDemoUITests" */ = {
+		FDEE65F31DFE28CF0078EE14 /* Build configuration list for PBXNativeTarget "JSUIKitDemoUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				FD0C86931DF95FAF00D52A5E /* Debug */,
-				FD0C86941DF95FAF00D52A5E /* Release */,
+				FDEE65F41DFE28CF0078EE14 /* Debug */,
+				FDEE65F51DFE28CF0078EE14 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = FD0C86571DF95FAF00D52A5E /* Project object */;
+	rootObject = FDEE65B81DFE28CF0078EE14 /* Project object */;
 }

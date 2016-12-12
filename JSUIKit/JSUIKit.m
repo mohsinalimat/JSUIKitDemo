@@ -10,17 +10,6 @@
 
 @implementation JSUIKit
 #pragma mark UILabel
-+ (UILabel *)createLabelWithAttributedText:(NSAttributedString *)attributedText
-{
-    UILabel *label = [self createLabelWithBackgroundColor:[UIColor clearColor]
-                                           AttributedText:attributedText
-                                            TextAlignment:NSTextAlignmentLeft
-                                            NumberOfLines:1
-                                            LineBreakMode:NSLineBreakByWordWrapping];
-
-    return label;
-}
-
 + (UILabel *)createLabelWithBackgroundColor:(UIColor *)backgroundColor
                              AttributedText:(NSAttributedString *)attributedText
                               TextAlignment:(NSTextAlignment)textAlignment
@@ -38,21 +27,6 @@
     label.numberOfLines = numberOfLines;
     
     label.lineBreakMode = lineBreakMode;
-    
-    return label;
-}
-
-+ (UILabel *)createLabelWithText:(NSString *)text
-                        FontSize:(CGFloat)fontSize
-                       TextColor:(UIColor *)textColor
-{
-    UILabel *label = [self createLabelWithBackgroundColor:[UIColor clearColor]
-                                                     Text:text
-                                                 FontSize:fontSize
-                                                TextColor:textColor
-                                            TextAlignment:NSTextAlignmentLeft
-                                            NumberOfLines:1
-                                            LineBreakMode:NSLineBreakByWordWrapping];
     
     return label;
 }
@@ -83,17 +57,6 @@
 }
 
 #pragma mark UIImageView
-+ (UIImageView *)createImageViewWithImageName:(NSString *)imageName
-                                  ContentMode:(UIViewContentMode)contentMode
-{
-    UIImageView *imageView = [self createImageViewWithBackgroundColor:[UIColor clearColor]
-                                                            ImageName:imageName
-                                                          ContentMode:contentMode
-                                               UserInteractionEnabled:NO];
-    
-    return imageView;
-}
-
 + (UIImageView *)createImageViewWithBackgroundColor:(UIColor *)backgroundColor
                                           ImageName:(NSString *)imageName
                                         ContentMode:(UIViewContentMode)contentMode
@@ -116,8 +79,8 @@
 + (UIButton *)createButtonWithBackgroundColor:(UIColor *)backgroundColor
                     BackgroundNormalImageName:(NSString *)backgroundNormalImageName
                   BackgroundSelectedImageName:(NSString *)backgroundSelectedImageName
-                         NormalAlignmentTitle:(NSAttributedString *)normalAttributedTitle
-                       SelectedAlignmentTitle:(NSAttributedString *)selectedAttributedTitle
+                        NormalAttributedTitle:(NSAttributedString *)normalAttributedTitle
+                      SelectedAttributedTitle:(NSAttributedString *)selectedAttributedTitle
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     
@@ -128,7 +91,7 @@
     
     [button setAttributedTitle:normalAttributedTitle forState:UIControlStateNormal];
     [button setAttributedTitle:selectedAttributedTitle forState:UIControlStateSelected];
-    
+
     return button;
 }
 
@@ -162,8 +125,8 @@
 + (UIButton *)createButtonWithBackgroundColor:(UIColor *)backgroundColor
                               NormalImageName:(NSString *)normalImageName
                             SelectedImageName:(NSString *)selectedImageName
-                         NormalAlignmentTitle:(NSAttributedString *)normalAttributedTitle
-                       SelectedAlignmentTitle:(NSAttributedString *)selectedAttributedTitle
+                        NormalAttributedTitle:(NSAttributedString *)normalAttributedTitle
+                      SelectedAttributedTitle:(NSAttributedString *)selectedAttributedTitle
 {
     UIButton *button = [UIButton buttonWithType:UIButtonTypeCustom];
     
@@ -233,7 +196,7 @@
     textField.borderStyle = borderStyle;
 
     textField.background = [UIImage imageNamed:backgroundImageName];
-    
+
     textField.font = [UIFont systemFontOfSize:fontSize];
     textField.textColor = textColor;
     textField.textAlignment = textAlignment;
@@ -256,6 +219,45 @@
     textField.rightView = rightView;
     
     return textField;
+}
+
+#pragma mark UITextView
++ (UITextView *)createTextViewWithBackgroundColor:(UIColor *)backgroundColor
+                                         FontSize:(CGFloat)fontSize
+                                        TextColor:(UIColor *)textColor
+                                    TextAlignment:(NSTextAlignment)textAlignment
+                            AttributedPlaceholder:(NSAttributedString *)attributedPlaceholder
+                                    ScrollEnabled:(BOOL)isScrollEnabled
+                                     KeyboardType:(UIKeyboardType)keyboardType
+                                    ReturnKeyType:(UIReturnKeyType)returnKeyType
+                                DataDetectorTypes:(UIDataDetectorTypes)dataDetectorTypes
+{
+    UITextView *textView = [[UITextView alloc] initWithFrame:CGRectZero];
+    
+    textView.backgroundColor = backgroundColor;
+    
+    textView.font = [UIFont systemFontOfSize:fontSize];
+    textView.textColor = textColor;
+    textView.textAlignment = textAlignment;
+    
+    UILabel *placeholderLabel = [self createLabelWithBackgroundColor:backgroundColor
+                                                      AttributedText:attributedPlaceholder
+                                                       TextAlignment:NSTextAlignmentLeft
+                                                       NumberOfLines:1
+                                                       LineBreakMode:NSLineBreakByWordWrapping];
+    
+    [textView addSubview:placeholderLabel];
+    
+    [textView setValue:placeholderLabel forKey:@"_placeholderLabel"];
+    
+    textView.scrollEnabled = isScrollEnabled;
+    
+    textView.keyboardType = keyboardType;
+    textView.returnKeyType = returnKeyType;
+    
+    textView.dataDetectorTypes = dataDetectorTypes;
+    
+    return textView;
 }
 
 @end

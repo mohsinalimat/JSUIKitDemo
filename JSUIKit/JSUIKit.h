@@ -11,13 +11,6 @@
 @interface JSUIKit : NSObject
 #pragma mark UILabel
 /**
- 创建一个UILabel：富文本；默认背景透明颜色
-
- @param attributedText 富文本
- */
-+ (UILabel *)createLabelWithAttributedText:(NSAttributedString *)attributedText;
-
-/**
  创建一个UILabel：背景颜色、富文本、文字对齐方式、显示行数
 
  @param backgroundColor 背景颜色
@@ -31,17 +24,6 @@
                               TextAlignment:(NSTextAlignment)textAlignment
                               NumberOfLines:(NSInteger)numberOfLines
                               LineBreakMode:(NSLineBreakMode)lineBreakMode;
-
-/**
- 创建一个UILabel：文字、文字颜色、文字字体大小；默认背景透明颜色
-
- @param text      文字
- @param fontSize  文字字体大小
- @param textColor 文字颜色
- */
-+ (UILabel *)createLabelWithText:(NSString *)text
-                        FontSize:(CGFloat)fontSize
-                       TextColor:(UIColor *)textColor;
 
 /**
  创建一个UILabel：背景颜色、文字、文字颜色、文字对齐方式、文字字体大小、显示行数
@@ -64,15 +46,6 @@
 
 #pragma mark UIImageView
 /**
- 创建一个UIImageView：图片名称、contentMode
-
- @param imageName   图片名称
- @param contentMode contentMode
- */
-+ (UIImageView *)createImageViewWithImageName:(NSString *)imageName
-                                  ContentMode:(UIViewContentMode)contentMode;
-
-/**
  创建一个UIImageView：背景颜色、图片名称、contentMode、交互性
 
  @param backgroundColor          背景颜色
@@ -86,7 +59,6 @@
                              UserInteractionEnabled:(BOOL)isUserInteractionEnabled;
 
 #pragma mark UIButton
-#warning UIButton：添加无背景图片、图片
 /**
  创建一个UIButton：背景颜色、背景图片、富文本
  
@@ -99,8 +71,8 @@
 + (UIButton *)createButtonWithBackgroundColor:(UIColor *)backgroundColor
                     BackgroundNormalImageName:(NSString *)backgroundNormalImageName
                   BackgroundSelectedImageName:(NSString *)backgroundSelectedImageName
-                         NormalAlignmentTitle:(NSAttributedString *)normalAttributedTitle
-                       SelectedAlignmentTitle:(NSAttributedString *)selectedAttributedTitle;
+                        NormalAttributedTitle:(NSAttributedString *)normalAttributedTitle
+                      SelectedAttributedTitle:(NSAttributedString *)selectedAttributedTitle;
 
 /**
  创建一个UIButton：背景颜色、背景图片、文字、文字颜色、文字字体大小
@@ -135,8 +107,8 @@
 + (UIButton *)createButtonWithBackgroundColor:(UIColor *)backgroundColor
                               NormalImageName:(NSString *)normalImageName
                             SelectedImageName:(NSString *)selectedImageName
-                         NormalAlignmentTitle:(NSAttributedString *)normalAttributedTitle
-                       SelectedAlignmentTitle:(NSAttributedString *)selectedAttributedTitle;
+                        NormalAttributedTitle:(NSAttributedString *)normalAttributedTitle
+                      SelectedAttributedTitle:(NSAttributedString *)selectedAttributedTitle;
 
 /**
  创建一个UIButton：背景颜色、图片、文字、文字颜色、文字字体大小
@@ -160,7 +132,6 @@
                                 TitleFontSize:(CGFloat)titleFontSize;
 
 #pragma mark UITextField
-
 /**
  创建一个UITextField:
 
@@ -202,4 +173,27 @@
                                            LeftView:(UIView *)leftView
                                           RightView:(UIView *)rightView;
 
+#pragma mark UITextView
+/**
+ 创建一个UITextView:
+
+ @param backgroundColor       背景颜色
+ @param fontSize              文字字体大小
+ @param textColor             文字颜色
+ @param textAlignment         文字对齐方式
+ @param attributedPlaceholder placeholder富文本
+ @param isScrollEnabled       当文字超过视图的边框时是否允许滑动
+ @param keyboardType          键盘样式
+ @param returnKeyType         return键样式
+ @param dataDetectorTypes     显示数据类型的连接模式（如电话号码、网址、地址等）
+ */
++ (UITextView *)createTextViewWithBackgroundColor:(UIColor *)backgroundColor
+                                         FontSize:(CGFloat)fontSize
+                                        TextColor:(UIColor *)textColor
+                                    TextAlignment:(NSTextAlignment)textAlignment
+                            AttributedPlaceholder:(NSAttributedString *)attributedPlaceholder
+                                    ScrollEnabled:(BOOL)isScrollEnabled
+                                     KeyboardType:(UIKeyboardType)keyboardType
+                                    ReturnKeyType:(UIReturnKeyType)returnKeyType
+                                DataDetectorTypes:(UIDataDetectorTypes)dataDetectorTypes;
 @end
