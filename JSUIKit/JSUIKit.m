@@ -187,7 +187,6 @@
                                     ClearButtonMode:(UITextFieldViewMode)clearButtonMode
                                            LeftView:(UIView *)leftView
                                           RightView:(UIView *)rightView
-
 {
     UITextField *textField = [[UITextField alloc] initWithFrame:CGRectZero];
     
