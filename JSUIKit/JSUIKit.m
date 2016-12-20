@@ -214,8 +214,15 @@
     textField.rightViewMode = rightViewMode;
     textField.clearButtonMode = clearButtonMode;
 
-    textField.leftView = leftView;
-    textField.rightView = rightView;
+    if (leftView)
+    {
+        textField.leftView = leftView;
+    }
+    
+    if (rightView)
+    {
+        textField.rightView = rightView;
+    }
     
     return textField;
 }

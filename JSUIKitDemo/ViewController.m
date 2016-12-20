@@ -8,14 +8,48 @@
 
 #import "ViewController.h"
 
-@interface ViewController () <UITextFieldDelegate>
+#import "LoginView.h"
+
+@interface ViewController () <LoginViewDelegate>
 
 @end
 
 @implementation ViewController
+#pragma mark 生命周期
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    LoginView *loginView = [[LoginView alloc] init];
+    loginView.delegate = self;
+    
+    self.view = loginView;
+}
+
+#pragma mark LoginViewDelegate
+- (void)loginButtonClick
+{
+    NSLog(@"Login Button Was Click");
+}
+
+- (void)forgetButtonClick
+{
+    NSLog(@"Forget Button Was Click");
+}
+
+- (void)registerButtonClick
+{
+    NSLog(@"Register Button Was Click");
+}
+
+- (void)wechatButtonClick
+{
+    NSLog(@"WeChat Button Was Click");
+}
+
+- (void)quickButtonClick
+{
+    NSLog(@"Quick Button Was Click");
 }
 
 @end

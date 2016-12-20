@@ -7,6 +7,17 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28EAF2E3A4681FEAC48A5B66 /* libPods-JSUIKitDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = DA1F67967CE1B13BF8B0248E /* libPods-JSUIKitDemo.a */; };
+		FDC1470D1E093054007C2335 /* LoginView.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC1470C1E093054007C2335 /* LoginView.m */; };
+		FDC147291E095C1A007C2335 /* NSData+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC147121E095C1A007C2335 /* NSData+JSCategory.m */; };
+		FDC1472A1E095C1A007C2335 /* NSDate+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC147151E095C1A007C2335 /* NSDate+JSCategory.m */; };
+		FDC1472B1E095C1A007C2335 /* NSNumber+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC147181E095C1A007C2335 /* NSNumber+JSCategory.m */; };
+		FDC1472C1E095C1A007C2335 /* NSString+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC1471B1E095C1A007C2335 /* NSString+JSCategory.m */; };
+		FDC1472D1E095C1A007C2335 /* UIApplication+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC1471F1E095C1A007C2335 /* UIApplication+JSCategory.m */; };
+		FDC1472E1E095C1A007C2335 /* UIButton+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC147221E095C1A007C2335 /* UIButton+JSCategory.m */; };
+		FDC1472F1E095C1A007C2335 /* UIColor+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC147251E095C1A007C2335 /* UIColor+JSCategory.m */; };
+		FDC147301E095C1A007C2335 /* UIDevice+JSCategory.m in Sources */ = {isa = PBXBuildFile; fileRef = FDC147281E095C1A007C2335 /* UIDevice+JSCategory.m */; };
+		FDC147321E095C6A007C2335 /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = FDC147311E095C6A007C2335 /* libz.tbd */; };
 		FDEE65C51DFE28CF0078EE14 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEE65C41DFE28CF0078EE14 /* main.m */; };
 		FDEE65C81DFE28CF0078EE14 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEE65C71DFE28CF0078EE14 /* AppDelegate.m */; };
 		FDEE65CB1DFE28CF0078EE14 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = FDEE65CA1DFE28CF0078EE14 /* ViewController.m */; };
@@ -36,6 +47,28 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		2AEC6CE1240859AA3A69DD36 /* Pods-JSUIKitDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSUIKitDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-JSUIKitDemo/Pods-JSUIKitDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		3DBD0D6A2357627295F1A2CA /* Pods-JSUIKitDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-JSUIKitDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-JSUIKitDemo/Pods-JSUIKitDemo.release.xcconfig"; sourceTree = "<group>"; };
+		DA1F67967CE1B13BF8B0248E /* libPods-JSUIKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSUIKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDC1470B1E093054007C2335 /* LoginView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginView.h; sourceTree = "<group>"; };
+		FDC1470C1E093054007C2335 /* LoginView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginView.m; sourceTree = "<group>"; };
+		FDC147111E095C1A007C2335 /* NSData+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSData+JSCategory.h"; sourceTree = "<group>"; };
+		FDC147121E095C1A007C2335 /* NSData+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSData+JSCategory.m"; sourceTree = "<group>"; };
+		FDC147141E095C1A007C2335 /* NSDate+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSDate+JSCategory.h"; sourceTree = "<group>"; };
+		FDC147151E095C1A007C2335 /* NSDate+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSDate+JSCategory.m"; sourceTree = "<group>"; };
+		FDC147171E095C1A007C2335 /* NSNumber+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSNumber+JSCategory.h"; sourceTree = "<group>"; };
+		FDC147181E095C1A007C2335 /* NSNumber+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSNumber+JSCategory.m"; sourceTree = "<group>"; };
+		FDC1471A1E095C1A007C2335 /* NSString+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+JSCategory.h"; sourceTree = "<group>"; };
+		FDC1471B1E095C1A007C2335 /* NSString+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+JSCategory.m"; sourceTree = "<group>"; };
+		FDC1471E1E095C1A007C2335 /* UIApplication+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIApplication+JSCategory.h"; sourceTree = "<group>"; };
+		FDC1471F1E095C1A007C2335 /* UIApplication+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIApplication+JSCategory.m"; sourceTree = "<group>"; };
+		FDC147211E095C1A007C2335 /* UIButton+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIButton+JSCategory.h"; sourceTree = "<group>"; };
+		FDC147221E095C1A007C2335 /* UIButton+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIButton+JSCategory.m"; sourceTree = "<group>"; };
+		FDC147241E095C1A007C2335 /* UIColor+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+JSCategory.h"; sourceTree = "<group>"; };
+		FDC147251E095C1A007C2335 /* UIColor+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+JSCategory.m"; sourceTree = "<group>"; };
+		FDC147271E095C1A007C2335 /* UIDevice+JSCategory.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIDevice+JSCategory.h"; sourceTree = "<group>"; };
+		FDC147281E095C1A007C2335 /* UIDevice+JSCategory.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIDevice+JSCategory.m"; sourceTree = "<group>"; };
+		FDC147311E095C6A007C2335 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		FDEE65C01DFE28CF0078EE14 /* JSUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDEE65C41DFE28CF0078EE14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDEE65C61DFE28CF0078EE14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -61,6 +94,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC147321E095C6A007C2335 /* libz.tbd in Frameworks */,
+				28EAF2E3A4681FEAC48A5B66 /* libPods-JSUIKitDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,14 +116,138 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		576F7EC984682E010BBAC1CE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				FDC147311E095C6A007C2335 /* libz.tbd */,
+				DA1F67967CE1B13BF8B0248E /* libPods-JSUIKitDemo.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F8ADD601174834FE4F0D938C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				2AEC6CE1240859AA3A69DD36 /* Pods-JSUIKitDemo.debug.xcconfig */,
+				3DBD0D6A2357627295F1A2CA /* Pods-JSUIKitDemo.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		FDC1470E1E095C1A007C2335 /* JSCategory */ = {
+			isa = PBXGroup;
+			children = (
+				FDC1470F1E095C1A007C2335 /* Foundation */,
+				FDC1471C1E095C1A007C2335 /* UIKit */,
+			);
+			path = JSCategory;
+			sourceTree = "<group>";
+		};
+		FDC1470F1E095C1A007C2335 /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				FDC147101E095C1A007C2335 /* NSData */,
+				FDC147131E095C1A007C2335 /* NSDate */,
+				FDC147161E095C1A007C2335 /* NSNumber */,
+				FDC147191E095C1A007C2335 /* NSString */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		FDC147101E095C1A007C2335 /* NSData */ = {
+			isa = PBXGroup;
+			children = (
+				FDC147111E095C1A007C2335 /* NSData+JSCategory.h */,
+				FDC147121E095C1A007C2335 /* NSData+JSCategory.m */,
+			);
+			path = NSData;
+			sourceTree = "<group>";
+		};
+		FDC147131E095C1A007C2335 /* NSDate */ = {
+			isa = PBXGroup;
+			children = (
+				FDC147141E095C1A007C2335 /* NSDate+JSCategory.h */,
+				FDC147151E095C1A007C2335 /* NSDate+JSCategory.m */,
+			);
+			path = NSDate;
+			sourceTree = "<group>";
+		};
+		FDC147161E095C1A007C2335 /* NSNumber */ = {
+			isa = PBXGroup;
+			children = (
+				FDC147171E095C1A007C2335 /* NSNumber+JSCategory.h */,
+				FDC147181E095C1A007C2335 /* NSNumber+JSCategory.m */,
+			);
+			path = NSNumber;
+			sourceTree = "<group>";
+		};
+		FDC147191E095C1A007C2335 /* NSString */ = {
+			isa = PBXGroup;
+			children = (
+				FDC1471A1E095C1A007C2335 /* NSString+JSCategory.h */,
+				FDC1471B1E095C1A007C2335 /* NSString+JSCategory.m */,
+			);
+			path = NSString;
+			sourceTree = "<group>";
+		};
+		FDC1471C1E095C1A007C2335 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				FDC1471D1E095C1A007C2335 /* UIApplication */,
+				FDC147201E095C1A007C2335 /* UIButton */,
+				FDC147231E095C1A007C2335 /* UIColor */,
+				FDC147261E095C1A007C2335 /* UIDevice */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		FDC1471D1E095C1A007C2335 /* UIApplication */ = {
+			isa = PBXGroup;
+			children = (
+				FDC1471E1E095C1A007C2335 /* UIApplication+JSCategory.h */,
+				FDC1471F1E095C1A007C2335 /* UIApplication+JSCategory.m */,
+			);
+			path = UIApplication;
+			sourceTree = "<group>";
+		};
+		FDC147201E095C1A007C2335 /* UIButton */ = {
+			isa = PBXGroup;
+			children = (
+				FDC147211E095C1A007C2335 /* UIButton+JSCategory.h */,
+				FDC147221E095C1A007C2335 /* UIButton+JSCategory.m */,
+			);
+			path = UIButton;
+			sourceTree = "<group>";
+		};
+		FDC147231E095C1A007C2335 /* UIColor */ = {
+			isa = PBXGroup;
+			children = (
+				FDC147241E095C1A007C2335 /* UIColor+JSCategory.h */,
+				FDC147251E095C1A007C2335 /* UIColor+JSCategory.m */,
+			);
+			path = UIColor;
+			sourceTree = "<group>";
+		};
+		FDC147261E095C1A007C2335 /* UIDevice */ = {
+			isa = PBXGroup;
+			children = (
+				FDC147271E095C1A007C2335 /* UIDevice+JSCategory.h */,
+				FDC147281E095C1A007C2335 /* UIDevice+JSCategory.m */,
+			);
+			path = UIDevice;
+			sourceTree = "<group>";
+		};
 		FDEE65B71DFE28CF0078EE14 = {
 			isa = PBXGroup;
 			children = (
+				FDC1470E1E095C1A007C2335 /* JSCategory */,
 				FDEE65F61DFE29040078EE14 /* JSUIKit */,
 				FDEE65C21DFE28CF0078EE14 /* JSUIKitDemo */,
 				FDEE65DC1DFE28CF0078EE14 /* JSUIKitDemoTests */,
 				FDEE65E71DFE28CF0078EE14 /* JSUIKitDemoUITests */,
 				FDEE65C11DFE28CF0078EE14 /* Products */,
+				F8ADD601174834FE4F0D938C /* Pods */,
+				576F7EC984682E010BBAC1CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -109,6 +268,8 @@
 				FDEE65C71DFE28CF0078EE14 /* AppDelegate.m */,
 				FDEE65C91DFE28CF0078EE14 /* ViewController.h */,
 				FDEE65CA1DFE28CF0078EE14 /* ViewController.m */,
+				FDC1470B1E093054007C2335 /* LoginView.h */,
+				FDC1470C1E093054007C2335 /* LoginView.m */,
 				FDEE65CC1DFE28CF0078EE14 /* Main.storyboard */,
 				FDEE65CF1DFE28CF0078EE14 /* Assets.xcassets */,
 				FDEE65D11DFE28CF0078EE14 /* LaunchScreen.storyboard */,
@@ -160,9 +321,12 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = FDEE65ED1DFE28CF0078EE14 /* Build configuration list for PBXNativeTarget "JSUIKitDemo" */;
 			buildPhases = (
+				505C78030296F3B25CE709D9 /* [CP] Check Pods Manifest.lock */,
 				FDEE65BC1DFE28CF0078EE14 /* Sources */,
 				FDEE65BD1DFE28CF0078EE14 /* Frameworks */,
 				FDEE65BE1DFE28CF0078EE14 /* Resources */,
+				571B74F7FA0D3CF57FE91020 /* [CP] Embed Pods Frameworks */,
+				FD4FE081F9DDB02FD6C689B9 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -215,12 +379,12 @@
 		FDEE65B81DFE28CF0078EE14 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "菅思博";
 				TargetAttributes = {
 					FDEE65BF1DFE28CF0078EE14 = {
 						CreatedOnToolsVersion = 8.1;
-						ProvisioningStyle = Automatic;
+						ProvisioningStyle = Manual;
 					};
 					FDEE65D81DFE28CF0078EE14 = {
 						CreatedOnToolsVersion = 8.1;
@@ -281,14 +445,71 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		505C78030296F3B25CE709D9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		571B74F7FA0D3CF57FE91020 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSUIKitDemo/Pods-JSUIKitDemo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FD4FE081F9DDB02FD6C689B9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-JSUIKitDemo/Pods-JSUIKitDemo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		FDEE65BC1DFE28CF0078EE14 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FDC1472B1E095C1A007C2335 /* NSNumber+JSCategory.m in Sources */,
 				FDEE65CB1DFE28CF0078EE14 /* ViewController.m in Sources */,
+				FDC147301E095C1A007C2335 /* UIDevice+JSCategory.m in Sources */,
+				FDC1472F1E095C1A007C2335 /* UIColor+JSCategory.m in Sources */,
 				FDEE65C81DFE28CF0078EE14 /* AppDelegate.m in Sources */,
+				FDC1472D1E095C1A007C2335 /* UIApplication+JSCategory.m in Sources */,
+				FDC1472A1E095C1A007C2335 /* NSDate+JSCategory.m in Sources */,
 				FDEE65C51DFE28CF0078EE14 /* main.m in Sources */,
+				FDC1472C1E095C1A007C2335 /* NSString+JSCategory.m in Sources */,
+				FDC147291E095C1A007C2335 /* NSData+JSCategory.m in Sources */,
+				FDC1470D1E093054007C2335 /* LoginView.m in Sources */,
+				FDC1472E1E095C1A007C2335 /* UIButton+JSCategory.m in Sources */,
 				FDEE65F91DFE29040078EE14 /* JSUIKit.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -362,6 +583,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -384,7 +606,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -410,6 +632,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -426,7 +649,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 10.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -436,23 +659,29 @@
 		};
 		FDEE65EE1DFE28CF0078EE14 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2AEC6CE1240859AA3A69DD36 /* Pods-JSUIKitDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JSUIKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Spirit.JSUIKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
 		FDEE65EF1DFE28CF0078EE14 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DBD0D6A2357627295F1A2CA /* Pods-JSUIKitDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = JSUIKitDemo/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.Spirit.JSUIKitDemo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
