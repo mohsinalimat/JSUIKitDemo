@@ -8,8 +8,6 @@
 
 #import "AppDelegate.h"
 
-#import <IQKeyboardManager/IQKeyboardManager.h>
-
 @interface AppDelegate ()
 
 @end
@@ -18,8 +16,6 @@
 #pragma mark 生命周期
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    [self keyBoardManager];
-    
     return YES;
 }
 
@@ -46,15 +42,6 @@
 - (void)applicationWillTerminate:(UIApplication *)application
 {
     
-}
-
-- (void)keyBoardManager
-{
-    IQKeyboardManager *manager = [IQKeyboardManager sharedManager];
-    
-    manager.enable = YES;
-    manager.shouldResignOnTouchOutside = YES;
-    manager.enableAutoToolbar = NO;
 }
 
 @end
