@@ -20,10 +20,10 @@
  @param lineBreakMode   字符截断类型
  */
 + (UILabel *)createLabelWithBackgroundColor:(UIColor *)backgroundColor
-                             AttributedText:(NSAttributedString *)attributedText
-                              TextAlignment:(NSTextAlignment)textAlignment
-                              NumberOfLines:(NSInteger)numberOfLines
-                              LineBreakMode:(NSLineBreakMode)lineBreakMode;
+                             attributedText:(NSAttributedString *)attributedText
+                              textAlignment:(NSTextAlignment)textAlignment
+                              numberOfLines:(NSInteger)numberOfLines
+                              lineBreakMode:(NSLineBreakMode)lineBreakMode;
 
 /**
  创建一个UILabel：背景颜色、文字、文字颜色、文字对齐方式、文字字体大小、显示行数
@@ -37,12 +37,12 @@
  @param lineBreakMode   字符截断类型
  */
 + (UILabel *)createLabelWithBackgroundColor:(UIColor *)backgroundColor
-                                       Text:(NSString *)text
-                                   FontSize:(CGFloat)fontSize
-                                  TextColor:(UIColor *)textColor
-                              TextAlignment:(NSTextAlignment)textAlignment
-                              NumberOfLines:(NSInteger)numberOfLines
-                              LineBreakMode:(NSLineBreakMode)lineBreakMode;
+                                       text:(NSString *)text
+                                   fontSize:(CGFloat)fontSize
+                                  textColor:(UIColor *)textColor
+                              textAlignment:(NSTextAlignment)textAlignment
+                              numberOfLines:(NSInteger)numberOfLines
+                              lineBreakMode:(NSLineBreakMode)lineBreakMode;
 
 #pragma mark UIImageView
 /**
@@ -54,9 +54,9 @@
  @param isUserInteractionEnabled 交互性
  */
 + (UIImageView *)createImageViewWithBackgroundColor:(UIColor *)backgroundColor
-                                          ImageName:(NSString *)imageName
-                                        ContentMode:(UIViewContentMode)contentMode
-                             UserInteractionEnabled:(BOOL)isUserInteractionEnabled;
+                                          imageName:(NSString *)imageName
+                                        contentMode:(UIViewContentMode)contentMode
+                             userInteractionEnabled:(BOOL)isUserInteractionEnabled;
 
 #pragma mark UIButton
 /**
@@ -69,10 +69,10 @@
  @param selectedAttributedTitle     选中状态下的富文本
  */
 + (UIButton *)createButtonWithBackgroundColor:(UIColor *)backgroundColor
-                    BackgroundNormalImageName:(NSString *)backgroundNormalImageName
-                  BackgroundSelectedImageName:(NSString *)backgroundSelectedImageName
-                        NormalAttributedTitle:(NSAttributedString *)normalAttributedTitle
-                      SelectedAttributedTitle:(NSAttributedString *)selectedAttributedTitle;
+                    backgroundNormalImageName:(NSString *)backgroundNormalImageName
+                  backgroundSelectedImageName:(NSString *)backgroundSelectedImageName
+                        normalAttributedTitle:(NSAttributedString *)normalAttributedTitle
+                      selectedAttributedTitle:(NSAttributedString *)selectedAttributedTitle;
 
 /**
  创建一个UIButton：背景颜色、背景图片、文字、文字颜色、文字字体大小
@@ -87,13 +87,13 @@
  @param titleFontSize               文字字体大小
  */
 + (UIButton *)createButtonWithBackgroundColor:(UIColor *)backgroundColor
-                    BackgroundNormalImageName:(NSString *)backgroundNormalImageName
-                  BackgroundSelectedImageName:(NSString *)backgroundSelectedImageName
-                                  NormalTitle:(NSString *)normalTitle
-                                SelectedTitle:(NSString *)selectedTitle
-                             NormalTitleColor:(UIColor *)normalTitleColor
-                           SelectedTitleColor:(UIColor *)selectedTitleColor
-                                TitleFontSize:(CGFloat)titleFontSize;
+                    backgroundNormalImageName:(NSString *)backgroundNormalImageName
+                  backgroundSelectedImageName:(NSString *)backgroundSelectedImageName
+                                  normalTitle:(NSString *)normalTitle
+                                selectedTitle:(NSString *)selectedTitle
+                             normalTitleColor:(UIColor *)normalTitleColor
+                           selectedTitleColor:(UIColor *)selectedTitleColor
+                                titleFontSize:(CGFloat)titleFontSize;
 
 /**
  创建一个UIButton：背景颜色、图片、富文本
@@ -105,10 +105,10 @@
  @param selectedAttributedTitle 选中状态下的富文本
  */
 + (UIButton *)createButtonWithBackgroundColor:(UIColor *)backgroundColor
-                              NormalImageName:(NSString *)normalImageName
-                            SelectedImageName:(NSString *)selectedImageName
-                        NormalAttributedTitle:(NSAttributedString *)normalAttributedTitle
-                      SelectedAttributedTitle:(NSAttributedString *)selectedAttributedTitle;
+                              normalImageName:(NSString *)normalImageName
+                            selectedImageName:(NSString *)selectedImageName
+                        normalAttributedTitle:(NSAttributedString *)normalAttributedTitle
+                      selectedAttributedTitle:(NSAttributedString *)selectedAttributedTitle;
 
 /**
  创建一个UIButton：背景颜色、图片、文字、文字颜色、文字字体大小
@@ -123,13 +123,13 @@
  @param titleFontSize      文字字体大小
  */
 + (UIButton *)createButtonWithBackgroundColor:(UIColor *)backgroundColor
-                              NormalImageName:(NSString *)normalImageName
-                            SelectedImageName:(NSString *)selectedImageName
-                                  NormalTitle:(NSString *)normalTitle
-                                SelectedTitle:(NSString *)selectedTitle
-                             NormalTitleColor:(UIColor *)normalTitleColor
-                           SelectedTitleColor:(UIColor *)selectedTitleColor
-                                TitleFontSize:(CGFloat)titleFontSize;
+                              normalImageName:(NSString *)normalImageName
+                            selectedImageName:(NSString *)selectedImageName
+                                  normalTitle:(NSString *)normalTitle
+                                selectedTitle:(NSString *)selectedTitle
+                             normalTitleColor:(UIColor *)normalTitleColor
+                           selectedTitleColor:(UIColor *)selectedTitleColor
+                                titleFontSize:(CGFloat)titleFontSize;
 
 #pragma mark UITextField
 /**
@@ -155,23 +155,23 @@
  @param rightView              RightView
  */
 + (UITextField *)createTextFieldWithBackgroundColor:(UIColor *)backgroundColor
-                                        BorderStyle:(UITextBorderStyle)borderStyle
-                                BackgroundImageName:(NSString *)backgroundImageName
-                                           FontSize:(CGFloat)fontSize
-                                          TextColor:(UIColor *)textColor
-                                      TextAlignment:(NSTextAlignment)textAlignment
-                              AttributedPlaceholder:(NSAttributedString *)attributedPlaceholder
-                                    SecureTextEntry:(BOOL)isSecureTextEntry
-                               ClearsOnBeginEditing:(BOOL)isClearsOnBeginEditing
-                                       KeyboardType:(UIKeyboardType)keyboardType
-                                      ReturnKeyType:(UIReturnKeyType)returnKeyType
-                                 AutocorrectionType:(UITextAutocorrectionType)autocorrectionType
-                             AutocapitalizationType:(UITextAutocapitalizationType)autocapitalizationType
-                                       LeftViewMode:(UITextFieldViewMode)leftViewMode
-                                      RightViewMode:(UITextFieldViewMode)rightViewMode
-                                    ClearButtonMode:(UITextFieldViewMode)clearButtonMode
-                                           LeftView:(UIView *)leftView
-                                          RightView:(UIView *)rightView;
+                                        borderStyle:(UITextBorderStyle)borderStyle
+                                backgroundImageName:(NSString *)backgroundImageName
+                                           fontSize:(CGFloat)fontSize
+                                          textColor:(UIColor *)textColor
+                                      textAlignment:(NSTextAlignment)textAlignment
+                              attributedPlaceholder:(NSAttributedString *)attributedPlaceholder
+                                    secureTextEntry:(BOOL)isSecureTextEntry
+                               clearsOnBeginEditing:(BOOL)isClearsOnBeginEditing
+                                       keyboardType:(UIKeyboardType)keyboardType
+                                      returnKeyType:(UIReturnKeyType)returnKeyType
+                                 autocorrectionType:(UITextAutocorrectionType)autocorrectionType
+                             autocapitalizationType:(UITextAutocapitalizationType)autocapitalizationType
+                                       leftViewMode:(UITextFieldViewMode)leftViewMode
+                                      rightViewMode:(UITextFieldViewMode)rightViewMode
+                                    clearButtonMode:(UITextFieldViewMode)clearButtonMode
+                                           leftView:(UIView *)leftView
+                                          rightView:(UIView *)rightView;
 
 #pragma mark UITextView
 /**
@@ -188,12 +188,13 @@
  @param dataDetectorTypes     显示数据类型的连接模式（如电话号码、网址、地址等）
  */
 + (UITextView *)createTextViewWithBackgroundColor:(UIColor *)backgroundColor
-                                         FontSize:(CGFloat)fontSize
-                                        TextColor:(UIColor *)textColor
-                                    TextAlignment:(NSTextAlignment)textAlignment
-                            AttributedPlaceholder:(NSAttributedString *)attributedPlaceholder
-                                    ScrollEnabled:(BOOL)isScrollEnabled
-                                     KeyboardType:(UIKeyboardType)keyboardType
-                                    ReturnKeyType:(UIReturnKeyType)returnKeyType
-                                DataDetectorTypes:(UIDataDetectorTypes)dataDetectorTypes;
+                                         fontSize:(CGFloat)fontSize
+                                        textColor:(UIColor *)textColor
+                                    textAlignment:(NSTextAlignment)textAlignment
+                            attributedPlaceholder:(NSAttributedString *)attributedPlaceholder
+                                    scrollEnabled:(BOOL)isScrollEnabled
+                                     keyboardType:(UIKeyboardType)keyboardType
+                                    returnKeyType:(UIReturnKeyType)returnKeyType
+                                dataDetectorTypes:(UIDataDetectorTypes)dataDetectorTypes;
+
 @end
