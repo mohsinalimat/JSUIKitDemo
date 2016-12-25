@@ -4,6 +4,11 @@ JSUIKit: 常用控件的工厂类
 
 ## 使用方法
 
+### 头文件的导入
+```objc
+#import "JSUIKit.h"
+```
+
 ### UILabel
 ```objc
 /**
