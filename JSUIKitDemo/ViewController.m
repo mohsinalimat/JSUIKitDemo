@@ -14,8 +14,7 @@
 
 @implementation ViewController
 #pragma mark 生命周期
-- (void)viewDidLoad
-{
+- (void)viewDidLoad {
     [super viewDidLoad];
 }
 
