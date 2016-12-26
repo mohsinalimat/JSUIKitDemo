@@ -17,8 +17,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		DA1F67967CE1B13BF8B0248E /* libPods-JSUIKitDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-JSUIKitDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		FDC147311E095C6A007C2335 /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
 		FDEE65C01DFE28CF0078EE14 /* JSUIKitDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JSUIKitDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FDEE65C41DFE28CF0078EE14 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		FDEE65C61DFE28CF0078EE14 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -44,22 +42,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		576F7EC984682E010BBAC1CE /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				FDC147311E095C6A007C2335 /* libz.tbd */,
-				DA1F67967CE1B13BF8B0248E /* libPods-JSUIKitDemo.a */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		FDEE65B71DFE28CF0078EE14 = {
 			isa = PBXGroup;
 			children = (
 				FDEE65F61DFE29040078EE14 /* JSUIKit */,
 				FDEE65C21DFE28CF0078EE14 /* JSUIKitDemo */,
 				FDEE65C11DFE28CF0078EE14 /* Products */,
-				576F7EC984682E010BBAC1CE /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
